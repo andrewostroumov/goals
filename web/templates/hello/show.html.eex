@@ -1,0 +1,4 @@
+<h2>
+  Hello from <%= @messenger %>!
+  <%= Map.get(assigns, :messenger) %>
+</h2>
